@@ -6,7 +6,17 @@ namespace Kursai_2021_03_22
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var hobby1 = new Hobby();
+            hobby1.HobbyId = 1;
+            hobby1.Text = "Astrology";
+            hobby1.TextLt = "Astrologija";
+
+            var hobby2 = new Hobby(2, "Art", "Menas");
+
+            var hobby3 = new Hobby { HobbyId = 3, Text = "Animation", TextLt = "Animacija" };
+
+            var profession1 = new Profession();
+
             Console.WriteLine();
             Console.WriteLine("------- Press any key to continue -------");
             Console.ReadKey();
