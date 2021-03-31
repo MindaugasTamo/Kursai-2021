@@ -1,6 +1,6 @@
-﻿namespace Kursai_2021_03_22
+﻿namespace Kursai_2021_03_22.Models
 {
-    class Hobby
+    public class Hobby
     {
         public Hobby()
         {
