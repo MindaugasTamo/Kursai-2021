@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace P4_OOP_Uzduotys
 {
-    class Dviratis : TransportoPriemone
+    public class Dviratis : TransportoPriemone
     {
         public Dviratis(string pavadinimas, double vidutinisGreitis) : base(pavadinimas, vidutinisGreitis)
         {
         }
         public override void Vaziuoti(int kelionesLaikas, int sustojimai)
         {
-            Console.WriteLine($"Su dviraciu {Pavadinimas} nuvaziavo {VidutinisGreitis * kelionesLaikas} ir sustojo {sustojimai}");
+            Console.WriteLine($"Su dviraciu {Pavadinimas} nuvaziavo {VidutinisGreitis * kelionesLaikas} km ir sustojo {sustojimai} kartus.");
         }
     }
 }
